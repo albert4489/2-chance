@@ -1,9 +1,9 @@
 #include "../inc/pathfinder.h"
 
 void mx_printerror_line(int e) {
-    mx_printerror("error: line ");
-    mx_printerror(mx_itoa(e));
-    mx_printerror(" is not valid\n");
+    mx_printerr("error: line ");
+    mx_printerr(mx_itoa(e));
+    mx_printerr(" is not valid\n");
     exit(0);
 }
 

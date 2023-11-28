@@ -1,7 +1,7 @@
 #include "../inc/pathfinder.h"
 
 char **mx_extractnames(t_node *node) {
-    char **name = (char **)malloc(2 * sizeof(char *));
+    char **name = (char **) malloc(2 * sizeof(char *));
     for (int i = 0; i < 2; i++) {
         name[i] = NULL;
     }

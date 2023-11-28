@@ -3,7 +3,7 @@
 char **mx_parsing(char *s) {
     int size = mx_atoi(s);
     if(s[0] == '\n') {
-        mx_printerror("error: line 1 is not valid\n");
+        mx_printerr("error: line 1 is not valid\n");
         exit(0);
     }
     int linetemp = 1;
@@ -19,7 +19,7 @@ char **mx_parsing(char *s) {
     }
     for (int i = 0; *s != '\n'; i++) {
         if(!mx_isdigit(*s)) {
-            mx_printerror("error: line 1 is not valid\n");
+            mx_printerr("error: line 1 is not valid\n");
             exit(0);
         }
         s++;
@@ -61,7 +61,7 @@ char **mx_parsing(char *s) {
         islndsize++;
     }
     if(size != islndsize) {
-        mx_printerror("error: invalid number of islands\n");
+        mx_printerr("error: invalid number of islands\n");
         exit(0);
     }
     for(int i = 0; islands[i] != NULL; i++) {

@@ -1,7 +1,7 @@
 #include "../inc/pathfinder.h"
 
 void mx_printnode(t_node *node) {
-    mx_border();
+    mx_printstr("========================================\n");
 
     mx_printstr("Path: ");
     mx_printstr(mx_extractnames(node)[1]);
@@ -12,8 +12,7 @@ void mx_printnode(t_node *node) {
     int arrsize = 0;
     t_node *temp = node;
 
-    while (temp != NULL) {
-        arrsize++;
+    for (; temp != NULL; arrsize++){
         temp = temp->parent;
     }
 
@@ -51,10 +50,10 @@ void mx_printnode(t_node *node) {
         mx_printstr(" = ");
         int sum = 0;
         for (int i = 0; i < arrsize - 1; i++) {
-            sum = sum + intarr[i];
+            sum += intarr[i];
         }
         mx_printint(sum);
     }
-    mx_border();
+    mx_printstr("\n========================================\n");
 }
 

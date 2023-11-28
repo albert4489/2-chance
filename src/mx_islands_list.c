@@ -5,6 +5,7 @@ char **mx_island_list(char **arr) {
     while (arr[size] != NULL) {
         size++;
     }
+
     int temp = 1;
     bool duplicate = false;
 
@@ -29,6 +30,7 @@ char **mx_island_list(char **arr) {
     while (mx_strcmp(result[0], result[len]) != 0) {
         len++;
     }
+
     char **resultarr = (char **) malloc((len + 1) * sizeof(char *));
     for (int i = 0; i < len; i++) {
         resultarr[i] = NULL;

@@ -44,7 +44,7 @@ bool mx_isalpha(int c);
 
 bool mx_isdigit(int c);
 
-void mx_printerror(const char *str);
+void mx_printerr(const char *str);
 
 void mx_check_duplicate(char **strarr, int size);
 
@@ -74,13 +74,11 @@ void mx_checksum(int **array, int size);
 
 char **mx_extractnames(t_node *node);
 
-void mx_border();
-
 void mx_printnode(t_node *node);
 
 char **mx_names(t_node *paths);
 
-void mx_sort(t_node **pths, char **islnds);
+void mx_sort(t_node **paths, char **islands);
 
 t_node **mx_generator(int **array, t_node* prnt, char **islnds);
 

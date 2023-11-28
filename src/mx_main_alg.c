@@ -84,3 +84,4 @@ t_node **mx_main_alg(int **array, char **islands, int curr, int goal) {
     }
     return pths;
 }
+

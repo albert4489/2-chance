@@ -7,3 +7,4 @@ bool mx_isalpha(int c) {
     else
         return false;
 }
+

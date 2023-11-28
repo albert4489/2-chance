@@ -1,20 +1,16 @@
 #include "../inc/pathfinder.h"
 
 int mx_atoi(const char *str) {
-    int result = 0;
+    int res = 0;
     int sign = 1;
     int i = 0;
-
-    if(str[0] == '-') {
-        sign = -1;
-        i++;
+    while (mx_isspace(str[i]) == true) i++;
+    if (str[i] == '-' || str[i] == '+') {
+        sign = 1 - 2 * (str[i++] == '-');
     }
-    for(; str[i] != '\0'; ++i) {
-        if(!mx_isdigit(str[i])) {
-            return 0;
-        }
-        result = result * 10 + str[i] - '0';
+    while (str[i] >= '0' && str[i] <= '9') {
+        res = 10 * res + (str[i++] - '0'); 
     }
-    return sign * result;
+    return res * sign;
 }
 

@@ -2,15 +2,15 @@
 
 int main (int argc, char *argv[]) {
     if (argc != 2) {
-        mx_printerror("usage: ./pathfinder [filename]\n");
+        mx_printerr("usage: ./pathfinder [filename]\n");
         exit(0);
     }
 
     char *file = mx_file_to_str(argv[1]);
     if (file == NULL) {
-        mx_printerror("error: file ");
-        mx_printerror(argv[1]);
-        mx_printerror(" is empty\n");
+        mx_printerr("error: file ");
+        mx_printerr(argv[1]);
+        mx_printerr(" is empty\n");
         exit(0);
     }
 

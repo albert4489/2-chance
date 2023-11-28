@@ -1,9 +1,9 @@
 #include "../inc/pathfinder.h"
 
 int **mx_dex_matrix(char **islnds, char **connect, int size) {
-    int **matrix = (int **)malloc((size + 1) * sizeof (int *));
+    int **matrix = (int **) malloc((size + 1) * sizeof (int *));
     for (int i = 0; i < size; i++) {
-        matrix[i] = (int *)malloc(size * sizeof(int));
+        matrix[i] = (int *) malloc(size * sizeof(int));
     }
     for (int i = 0; i < size; i++) {
         for (int j = 0; j < size; j++) {
@@ -11,7 +11,9 @@ int **mx_dex_matrix(char **islnds, char **connect, int size) {
         }
     }
     int concount = 0;
-    for (;connect[concount] != NULL; concount++);
+    while (connect[concount] != NULL) {
+        concount++;
+    }
 
     for (int i = 0; i < concount; i += 3) {
         int index1 = mx_get_index(islnds, connect[i]);

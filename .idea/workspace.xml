@@ -9,69 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="169538a1-8650-4e3d-8cf3-f72e1aba9774" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.example1.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/2-chance.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.invalid3.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/pathfinder.h" beforeDir="false" afterPath="$PROJECT_DIR$/inc/pathfinder.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/invalid3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/main.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_atoi.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_border.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_check.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_check_duplicate.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_checksum.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_cmp_pths.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_dex_matrix.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_extractnames.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_generator.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_get_index.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_get_last_char.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_isalpha.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_isdigit.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_isempty.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_islands_list.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_main_alg.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_name.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_names.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_new.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_newnode.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_parsing.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_peek.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_pop.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_print_unique_paths.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_printerr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_printerror.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_printerror_line.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_printnode.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_push.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_pushnode.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/mx_sort.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pathfinder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx_atoi.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx_atoi.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx_check.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx_check.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx_check_duplicate.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx_check_duplicate.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx_checksum.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx_checksum.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx_dex_matrix.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx_dex_matrix.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx_extractnames.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx_extractnames.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx_generator.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx_generator.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx_get_last_char.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx_get_last_char.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx_isalpha.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx_isalpha.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx_isdigit.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx_isdigit.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx_islands_list.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx_islands_list.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx_main_alg.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx_main_alg.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx_parsing.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx_parsing.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx_print_unique_paths.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx_print_unique_paths.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx_printerr.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx_printerr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx_printerror_line.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx_printerror_line.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx_printnode.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx_printnode.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx_sort.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx_sort.c" afterDir="false" />
-    </list>
+    <list default="true" id="169538a1-8650-4e3d-8cf3-f72e1aba9774" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,6 +74,7 @@
       <workItem from="1701135517234" duration="4590000" />
       <workItem from="1701142850224" duration="8046000" />
       <workItem from="1701151306952" duration="12229000" />
+      <workItem from="1701164212690" duration="194000" />
     </task>
     <servers />
   </component>
